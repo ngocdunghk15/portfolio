@@ -39,7 +39,7 @@ function HomePage() {
           </div>
         </div>
         <div className={'flex-1 animate__animated animate__fadeInRight animate__fadeIn animate__fast'}>
-          <img src={'/public/banner.svg'} alt={'banner'}/>
+          <img src={'/banner.svg'} alt={'banner'}/>
           <div className={'flex flex-col items-center mt-4'}>
             <button className={`${styles.primaryButton} mb-3`} type={'button'}>
               <a className={'w-full h-full block px-[18px] py-[8px]'} href={'mailto:ngocdunghk15@gmail.com'}>
