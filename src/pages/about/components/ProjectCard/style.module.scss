@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #a0a0a0;
+  padding: 20px 12px;
+  border-radius: 8px;
+
+  .title {
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .para {
+    color: #c8c8c8;
+    margin-bottom: 12px;
+  }
+
+  .github, .demo {
+    padding: 4px 12px;
+    border-radius: 4px;
+  }
+
+  .github  {
+    background: #149eca;
+    transition: 0.25s all;
+    &:hover {
+      background: rgba(20, 158, 202, 0.8);
+    }
+  }
+
+  .demo {
+    border: 1px solid #9ca3af;
+    transition: 0.25s all;
+    &:hover {
+      color: rgb(164, 164, 164);
+      border-color: rgb(164, 164, 164);
+    }
+  }
+}
