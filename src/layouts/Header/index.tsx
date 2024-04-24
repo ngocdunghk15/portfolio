@@ -22,7 +22,9 @@ function Header() {
       }
       <li>
         <button className={styles.button} type={'button'}>
-          Download CV
+          <a href={'/CV.pdf'} target={'_blank'}>
+            Download CV
+          </a>
         </button>
       </li>
     </ul>
